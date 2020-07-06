@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+html {
+  /* stylelint-disable-line */
+  /*margin-right: 20px;
+  margin-left: 20px;*/
+  font-family: Lato, helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+  @media (min-width: 1200px) {
+    html {
+      margin: 0; } }
+
+main {
+  /* stylelint-disable-line */
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: hidden; }
+
+body{
+  background-color: #aaaaaa;
+}
+
+.skills-logo {
+    font-size: 40px;
+}
+
+img{
+  max-width: 200px;
+  height: auto;
+  border-radius: 100%;
+
+}
+.mynd-head{
+  border: 5px solid #555;
+  border-radius: 100%;
+
+}
+#icon{
+  border-radius: 0%;
+  padding: 5px;
+  width: 30px;
+}
+h5{
+  margin-top: 5px;
+}
+
+
+#icon-flag{
+  width: 50px;
+}
+.text-head{
+  flex: 1;
+}
+
+.row{
+  /*display: flex;*/
+  float: left;
+}
+
+.h3{
+  text-align:
+
+}
+.column1{
+  float: left;
+  width: 25%;
+  /*flex: 50%;*/
+  text-align: center;
+
+}
+
+.column2{
+  float: left;
+  width: 75%;
+}
+
+section{
+  display: flex;
+  /*flex-wrap: wrap;*/
+  border-bottom: 3px solid #555;
+  justify-content: center;
+  align-items: center;
+  /*max-height: 25%;*/
+
+}
+
+h1{
+  color: black;
+  margin: 20px
+}
+h2{
+  color: black;
+  margin: 20px;
+}
+
+h4{
+  margin: 20px;
+}
+
+#icon-footer{
+  border-radius: 0%;
+  padding: 10px;
+  width: 30px;
+
+}
+
+footer{
+
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  /*position: absolute;*/
+  width: 100%;
+  bottom: 0;
+
+}
