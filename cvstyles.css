@@ -143,7 +143,7 @@ p.date{
 
 @media (max-width: 900px) {
   body{
-    background-color: pink;
+
   }
 
   .column2{
@@ -155,10 +155,11 @@ p.date{
 
 @media (max-width: 600px) {
   html {
-    background-color: lightblue;
+
   }
   h4{
     margin: 0;
+
   }
 
   .column1{
@@ -168,6 +169,11 @@ p.date{
   .column2{
     max-width: 380px;
     float: none;
+    border: 0px;
+    flex-direction: column;
+  }
+  h2{
+    margin: 0;
   }
 
   section{
