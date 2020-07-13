@@ -4,7 +4,8 @@ html {
   /* stylelint-disable-line */
   /*margin-right: 20px;
   margin-left: 20px;*/
-  font-family: Lato, helvetica, arial, sans-serif;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-family: 'Barlow';
   font-size: 16px;
   line-height: 1.5; }
   @media (min-width: 1200px) {
@@ -18,61 +19,10 @@ main {
   overflow-x: hidden; }
 
 body{
+
   background-color: #c0c0c0;
 }
 
-.skills-logo {
-    font-size: 40px;
-}
-
-img{
-  max-width: 200px;
-  height: auto;
-  border-radius: 100%;
-  border: 5px solid #000;
-}
-
-#icon{
-  border-radius: 0%;
-  padding: 5px;
-  width: 30px;
-  border: 0px;
-}
-
-h5{
-  margin-top: 5px;
-}
-
-#icon-flag{
-  width: 50px;
-  border: 0px;
-}
-.text-head{
-  flex: 1;
-}
-
-.row{
-  /*display: flex;*/
-  float: left;
-  width: -webkit-fill-available;
-}
-
-.h3{
-  text-align:
-}
-
-.column1{
-  float: left;
-  width: 25%;
-  text-align: center;
-}
-
-.column2{
-  float: left;
-  width: 70%;
-  border-left: 3px solid #555;
-  padding-left: 30px;;
-}
 
 section{
 /*  background-color: #777;*/
@@ -91,6 +41,13 @@ section{
   /*max-height: 25%;*/
 }
 
+img{
+  max-width: 200px;
+  height: auto;
+  border-radius: 100%;
+  border: 4px solid #000;
+}
+
 h1{
   color: black;
   margin: 20px
@@ -98,21 +55,20 @@ h1{
 
 
 h2{
-  color: black;
-  margin: 20px;
-  size: 200px;
+  /*color: black;*/
+  /*margin-top: 20px;*/
 }
 
+h3{
+  margin-bottom: 0;
+}
 h4{
   margin: 20px;
+  font: Roboto;
 }
 
-#icon-footer{
-  border-radius: 0%;
-  padding: 10px;
-  width: 30px;
-  border: 0px;
-
+h5{
+  margin-top: 5px;
 }
 
 footer{
@@ -134,6 +90,11 @@ p.text{
   margin-bottom: 10;
 
 }
+
+p.logoText{
+  font-size: 20px;
+}
+
 p.date{
   color: #696969;
   font-size: 18px;
@@ -141,11 +102,76 @@ p.date{
   margin-bottom: 0;
 }
 
+.contact-info{
+  margin-left: 20px;
+}
+
+.skills-logo {
+    font-size: 25px;
+}
+
+.skills{
+  font-size: 20px;
+  margin: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #555;
+}
+
+.skills-lang{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.contact-info{
+  margin: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #555;
+}
+
+.text-head{
+  flex: 1;
+}
+
+.row{
+  float: left;
+  width: -webkit-fill-available;
+}
+
+.column1{
+  float: left;
+  /*width: 25%;*/
+  margin-left : 20px;
+  /*text-align: center;*/
+  border-right: 2px solid #555;
+}
+
+.column2{
+  float: left;
+  width: 70%;
+  /*border-left: 2px solid #555;*/
+  padding-left: 30px;;
+}
+
+#icon{
+  border-radius: 0%;
+  padding: 5px;
+  width: 30px;
+  border: 0px;
+}
+
+#icon-flag{
+  width: 40px;
+  border: 2px solid ;
+}
+
+#icon-footer{
+  border-radius: 0%;
+  padding: 10px;
+  width: 30px;
+  border: 0px;
+}
+
 @media (max-width: 900px) {
-  body{
-
-  }
-
   .column2{
     max-width: 900px;
     float: none;
@@ -157,9 +183,31 @@ p.date{
   html {
 
   }
+
+  h2{
+    margin: 0;
+  }
+
+  section{
+    display: block;
+    text-align: center;
+    padding-left: 0px;
+  }
+
   h4{
     margin: 0;
+  }
+  .row{
+    display: inline-flex;
+  }
+  .skills-logo{
+    font-size: 20px;
+    margin: 0;
+  }
 
+  .contact-info{
+    margin: 0;
+  /*  border-bottom: 2px solid #555;*/
   }
 
   .column1{
@@ -172,12 +220,5 @@ p.date{
     border: 0px;
     flex-direction: column;
   }
-  h2{
-    margin: 0;
-  }
 
-  section{
-    display: block;
-    text-align: center;
-  }
 }
